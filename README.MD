@@ -14,3 +14,21 @@ var welcome = "hello " + name;
 let name = "Luiz"
 const welcome = `hello ${name}`;
 ```
+
+### Destructuring
+- before update
+```javascript
+const user = { name: "Luiz", age: 25 };
+
+const name = user.name;
+const age = user.age;
+
+console.log(`name: ${name} - age: ${age}`)
+```
+
+- after update
+```javascript
+const user = { name: "Luiz", age: 25 };
+const { name, age } = user;
+console.log(`name: ${name} - age: ${age}`)
+```
