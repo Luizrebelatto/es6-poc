@@ -12,3 +12,6 @@ function gamePointsTotal(...points) {
   }
   
   let result = gamePointsTotal(4, 9, 16, 25, 29, 100, 66, 77)
+
+
+// Symbol
